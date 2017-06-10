@@ -1,12 +1,12 @@
-upperarm_roll_controller:
+dial_needle_controller:
     controller:
         package: dynamixel_controllers
         module: joint_position_controller
         type: JointPositionController
-    joint_name: upperarm_roll
-    joint_speed: 3.0
+    joint_name: dial_needle
+    joint_speed: 0.5
     motor:
-        id: 31
-        init: 2048
+        id: 14
+        init: 512
         min: 0
-        max: 4095
+        max: 1023
